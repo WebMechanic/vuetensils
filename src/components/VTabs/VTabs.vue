@@ -165,7 +165,7 @@ export default {
         this.$nextTick(() =>
           this.$emit('tabChange', {
             event,
-            tab: this.tablist[this.activeIndex],
+            tab: this.tabList[this.activeIndex],
             index: this.activeIndex,
           })
         );
